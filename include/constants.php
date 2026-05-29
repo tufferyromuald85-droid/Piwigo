@@ -13,7 +13,7 @@ define('PHPWG_DEFAULT_LANGUAGE', 'en_UK');
 // this constant is only used in the upgrade process, the true default theme
 // is the theme of user "guest", which is initialized with column user_infos.theme
 // default value (see file install/piwigo_structure-mysql.sql)
-define('PHPWG_DEFAULT_TEMPLATE', 'modus');
+define('PHPWG_DEFAULT_TEMPLATE', 'stripped_responsive');
 
 define('PHPWG_THEMES_PATH', $conf['themes_dir'].'/');
 defined('PWG_COMBINED_DIR') or define('PWG_COMBINED_DIR', $conf['data_location'].'combined/');
